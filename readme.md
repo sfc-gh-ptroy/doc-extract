@@ -11,7 +11,7 @@ Two document types are processed:
 
 ## Key Technique: responseFormat Schema
 
-Instead of free-text prompts or `AI_PARSE_DOCUMENT` + string parsing, this notebook uses a **typed JSON schema** as the second argument to `AI_EXTRACT`:
+This notebook uses a **typed JSON schema** as the second argument to `AI_EXTRACT`:
 
 ```sql
 AI_EXTRACT(
